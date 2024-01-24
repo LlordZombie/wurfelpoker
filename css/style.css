@@ -1,0 +1,30 @@
+#cubes {
+    background-color: green;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 70%;
+    margin: auto;
+}
+
+#cubes img {
+    padding: 3%;
+    width: 10%;
+}
+
+#checkboxes {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 1% auto;
+    background-color: yellow;
+}
+
+#checkboxes input {
+    margin: 0 6.75vw;
+}
+
+#buttons {
+
+}
+
+body {
+    padding: 5%;
+    height: 100vh;
+}
