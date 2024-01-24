@@ -1,5 +1,4 @@
 #cubes {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 70%;
     margin: auto;
     display: flex;
