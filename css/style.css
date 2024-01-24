@@ -1,19 +1,23 @@
 #cubes {
-    background-color: green;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 70%;
     margin: auto;
+    display: flex;
 }
 
 #cubes img {
-    padding: 3%;
-    width: 10%;
+    padding: 4%;
+    width: 8%;
+    height: 20%;
+    border-radius: 30%;
 }
 
+
 #checkboxes {
+    display: grid;
+
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     margin: 1% auto;
-    background-color: yellow;
 }
 
 #checkboxes input {
@@ -21,10 +25,13 @@
 }
 
 #buttons {
-
+    text-align: center;
 }
+
 
 body {
     padding: 5%;
     height: 100vh;
+    background-image: url("../imgs/würfelpoker.jpg");
+    background-size: cover;
 }

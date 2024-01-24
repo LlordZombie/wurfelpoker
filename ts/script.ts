@@ -17,6 +17,9 @@ function roll() {
             imgNums[i] *= Math.random() * 6 + 1;
             if (!(stays.item(i) as HTMLInputElement)!.checked) {
                 imgs.item(i)!.setAttribute("src", `imgs/${Math.floor(imgNums[i])}.jpg`);
+                (imgs.item(i)as HTMLElement)!.style.transform=`rotate(${Math.random()*360}deg)`;
+                (imgs.item(i)as HTMLElement)!.style.marginTop =`${Math.random()*25}%`
+
             }
         }
         throwsLeft--;
@@ -40,6 +43,8 @@ function next() {
         imgs.item(i)!.setAttribute("src", `imgs/6.jpg`);
         (stays.item(i) as HTMLInputElement)!.checked = false;
         (stays.item(i) as HTMLInputElement)!.disabled = true;
+        (imgs.item(i)as HTMLElement)!.style.transform=`rotate(0deg)`;
+        (imgs.item(i)as HTMLElement)!.style.marginTop =`0`
 
     }
 }

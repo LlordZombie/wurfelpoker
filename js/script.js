@@ -16,6 +16,8 @@ function roll() {
             imgNums[i] *= Math.random() * 6 + 1;
             if (!stays.item(i).checked) {
                 imgs.item(i).setAttribute("src", `imgs/${Math.floor(imgNums[i])}.jpg`);
+                imgs.item(i).style.transform = `rotate(${Math.random() * 360}deg)`;
+                imgs.item(i).style.marginTop = `${Math.random() * 25}%`;
             }
         }
         throwsLeft--;
@@ -35,6 +37,8 @@ function next() {
         imgs.item(i).setAttribute("src", `imgs/6.jpg`);
         stays.item(i).checked = false;
         stays.item(i).disabled = true;
+        imgs.item(i).style.transform = `rotate(0deg)`;
+        imgs.item(i).style.marginTop = `0`;
     }
 }
 //# sourceMappingURL=script.js.map
