@@ -10,7 +10,7 @@ function main() {
 function roll() {
     let imgs: HTMLCollectionOf<Element> = document.getElementsByClassName("cube");
     let stays: HTMLCollectionOf<Element> = document.getElementsByTagName("input");
-    let imgNums: number[] = [1, 1, 1, 1, 1, 1];
+    let imgNums: number[] = [1, 1, 1, 1, 1];
     if (throwsLeft > 0) {
         for (let i = 0; i < imgNums.length; i++) {
             (stays.item(i) as HTMLInputElement)!.disabled = false;

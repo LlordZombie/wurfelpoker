@@ -5,9 +5,9 @@
 }
 
 #cubes img {
-    padding: 4%;
-    width: 8%;
-    height: 20%;
+    padding: 5%;
+    width: 10%;
+    height: 25%;
     border-radius: 30%;
 }
 
@@ -15,7 +15,7 @@
 #checkboxes {
     display: grid;
 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 1% auto;
 }
 

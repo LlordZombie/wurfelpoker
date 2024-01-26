@@ -9,7 +9,7 @@ function main() {
 function roll() {
     let imgs = document.getElementsByClassName("cube");
     let stays = document.getElementsByTagName("input");
-    let imgNums = [1, 1, 1, 1, 1, 1];
+    let imgNums = [1, 1, 1, 1, 1];
     if (throwsLeft > 0) {
         for (let i = 0; i < imgNums.length; i++) {
             stays.item(i).disabled = false;
